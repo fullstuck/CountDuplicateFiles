@@ -1,0 +1,1 @@
+directories = Dir.glob("DropsuiteTest/**/*").reject { |f| File.directory?(f) }
