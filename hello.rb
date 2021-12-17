@@ -1,4 +1,7 @@
-directories = Dir.glob("DropsuiteTest/**/*").reject { |f| File.directory?(f) }
+puts = "Input directory : "
+dir = gets.chomp()
+
+directories = Dir.glob(dir + "/**/*").reject { |f| File.directory?(f) }
 
 arr = Array.new
 
